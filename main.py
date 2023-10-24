@@ -14,170 +14,6 @@ html = """
     matsortdisableclear="true"
     class="mat-mdc-table mdc-data-table__table cdk-table mat-sort c9s-issues-table captionsV2 fire-table"
 >
-    <thead role="rowgroup">
-        <tr
-            _ngcontent-ng-c1685953515=""
-            role="row"
-            mat-header-row=""
-            class="mat-mdc-header-row mdc-data-table__header-row cdk-header-row fire-table-row ng-star-inserted"
-        >
-            <th
-                _ngcontent-ng-c1685953515=""
-                role="columnheader"
-                mat-header-cell=""
-                class="mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-issueCheckbox mat-column-issueCheckbox ng-star-inserted"
-            >
-                <mat-checkbox
-                    _ngcontent-ng-c1685953515=""
-                    firefocusmanageritem=""
-                    class="mat-mdc-checkbox issue-checkbox all-checkbox mat-accent ng-star-inserted"
-                    id="mat-mdc-checkbox-6"
-                    ><div class="mdc-form-field">
-                        <div class="mdc-checkbox">
-                            <div class="mat-mdc-checkbox-touch-target"></div>
-                            <input
-                                type="checkbox"
-                                class="mdc-checkbox__native-control"
-                                id="mat-mdc-checkbox-6-input"
-                                tabindex="0"
-                                aria-label="Toggle selection of all issues"
-                            />
-                            <div class="mdc-checkbox__ripple"></div>
-                            <div class="mdc-checkbox__background">
-                                <svg
-                                    focusable="false"
-                                    viewBox="0 0 24 24"
-                                    aria-hidden="true"
-                                    class="mdc-checkbox__checkmark"
-                                >
-                                    <path
-                                        fill="none"
-                                        d="M1.73,12.91 8.1,19.28 22.79,4.59"
-                                        class="mdc-checkbox__checkmark-path"
-                                    ></path>
-                                </svg>
-                                <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                            <div
-                                mat-ripple=""
-                                class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
-                            ></div>
-                        </div>
-                        <label
-                            class="mdc-label"
-                            for="mat-mdc-checkbox-6-input"
-                        ></label></div></mat-checkbox
-                ><!---->
-            </th>
-            <th
-                _ngcontent-ng-c1685953515=""
-                role="columnheader"
-                mat-header-cell=""
-                class="mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-issue mat-column-issue ng-star-inserted"
-            >
-                <span _ngcontent-ng-c1685953515="">问题</span>
-            </th>
-            <th
-                _ngcontent-ng-c1685953515=""
-                role="columnheader"
-                mat-header-cell=""
-                class="mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell hide-at-mobile cdk-column-versions mat-column-versions ng-star-inserted"
-            >
-                版本
-            </th>
-            <th
-                _ngcontent-ng-c1685953515=""
-                role="columnheader"
-                mat-header-cell=""
-                aria-sort="descending"
-                aria-label="事件计数"
-                mat-sort-header=""
-                class="mat-sort-header mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell hide-at-mobile ng-tns-c1267148319-10 cdk-column-eventCount mat-column-eventCount mat-sort-header-disabled ng-star-inserted"
-            >
-                <div
-                    class="mat-sort-header-container mat-focus-indicator ng-tns-c1267148319-10 mat-sort-header-sorted"
-                    aria-describedby="cdk-describedby-message-ng-1-8"
-                    cdk-describedby-host="ng-1"
-                >
-                    <div class="mat-sort-header-content ng-tns-c1267148319-10">
-                        事件
-                    </div>
-                    <div
-                        class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c1267148319-10 ng-star-inserted"
-                        style="transform: translateY(0px); opacity: 1"
-                    >
-                        <div
-                            class="mat-sort-header-stem ng-tns-c1267148319-10"
-                        ></div>
-                        <div
-                            class="mat-sort-header-indicator ng-tns-c1267148319-10 ng-trigger ng-trigger-indicator"
-                            style="transform: translateY(10px)"
-                        >
-                            <div
-                                class="mat-sort-header-pointer-left ng-tns-c1267148319-10 ng-trigger ng-trigger-leftPointer"
-                                style="transform: rotate(45deg)"
-                            ></div>
-                            <div
-                                class="mat-sort-header-pointer-right ng-tns-c1267148319-10 ng-trigger ng-trigger-rightPointer"
-                                style="transform: rotate(-45deg)"
-                            ></div>
-                            <div
-                                class="mat-sort-header-pointer-middle ng-tns-c1267148319-10"
-                            ></div>
-                        </div>
-                    </div>
-                    <!---->
-                </div>
-            </th>
-            <th
-                _ngcontent-ng-c1685953515=""
-                role="columnheader"
-                mat-header-cell=""
-                mat-sort-header=""
-                class="mat-sort-header mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell hide-at-mobile ng-tns-c1267148319-11 cdk-column-userCount mat-column-userCount ng-star-inserted"
-                aria-sort="none"
-            >
-                <div
-                    class="mat-sort-header-container mat-focus-indicator ng-tns-c1267148319-11"
-                    aria-describedby="cdk-describedby-message-ng-1-9"
-                    cdk-describedby-host="ng-1"
-                    tabindex="0"
-                    role="button"
-                >
-                    <div class="mat-sort-header-content ng-tns-c1267148319-11">
-                        用户
-                    </div>
-                    <div
-                        class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c1267148319-11 ng-star-inserted"
-                        style="transform: translateY(-25%); opacity: 0"
-                    >
-                        <div
-                            class="mat-sort-header-stem ng-tns-c1267148319-11"
-                        ></div>
-                        <div
-                            class="mat-sort-header-indicator ng-tns-c1267148319-11 ng-trigger ng-trigger-indicator"
-                            style="transform: translateY(10px)"
-                        >
-                            <div
-                                class="mat-sort-header-pointer-left ng-tns-c1267148319-11 ng-trigger ng-trigger-leftPointer"
-                                style="transform: rotate(45deg)"
-                            ></div>
-                            <div
-                                class="mat-sort-header-pointer-right ng-tns-c1267148319-11 ng-trigger ng-trigger-rightPointer"
-                                style="transform: rotate(-45deg)"
-                            ></div>
-                            <div
-                                class="mat-sort-header-pointer-middle ng-tns-c1267148319-11"
-                            ></div>
-                        </div>
-                    </div>
-                    <!---->
-                </div>
-            </th>
-            <!---->
-        </tr>
-        <!---->
-    </thead>
     <tbody role="rowgroup" class="mdc-data-table__content">
         <tr
             _ngcontent-ng-c1685953515=""
@@ -195,14 +31,14 @@ html = """
                     _ngcontent-ng-c1685953515=""
                     firefocusmanageritem=""
                     class="mat-mdc-checkbox issue-checkbox mat-accent ng-star-inserted"
-                    id="mat-mdc-checkbox-17"
+                    id="mat-mdc-checkbox-53"
                     ><div class="mdc-form-field">
                         <div class="mdc-checkbox">
                             <div class="mat-mdc-checkbox-touch-target"></div>
                             <input
                                 type="checkbox"
                                 class="mdc-checkbox__native-control"
-                                id="mat-mdc-checkbox-17-input"
+                                id="mat-mdc-checkbox-53-input"
                                 tabindex="0"
                                 aria-label="Toggle issue selection"
                             />
@@ -229,7 +65,7 @@ html = """
                         </div>
                         <label
                             class="mdc-label"
-                            for="mat-mdc-checkbox-17-input"
+                            for="mat-mdc-checkbox-53-input"
                         ></label></div></mat-checkbox
                 ><!---->
             </td>
@@ -271,6 +107,12 @@ html = """
                                             _ngcontent-ng-c3846189135=""
                                             mattooltipposition="above"
                                             class="mat-mdc-tooltip-trigger event-type-tooltip-target"
+                                            style="
+                                                user-select: none;
+                                                -webkit-user-drag: none;
+                                                touch-action: none;
+                                                -webkit-tap-highlight-color: transparent;
+                                            "
                                             aria-describedby="cdk-describedby-message-ng-1-14"
                                             cdk-describedby-host="ng-1"
                                         >
@@ -312,6 +154,12 @@ html = """
                                             data-test-id="blamedPackageWrapper"
                                             mattooltipposition="above"
                                             class="mat-mdc-tooltip-trigger metadata-wrapper ng-star-inserted"
+                                            style="
+                                                user-select: none;
+                                                -webkit-user-drag: none;
+                                                touch-action: none;
+                                                -webkit-tap-highlight-color: transparent;
+                                            "
                                             aria-describedby="cdk-describedby-message-ng-1-15"
                                             cdk-describedby-host="ng-1"
                                         >
@@ -328,7 +176,7 @@ html = """
                                             ><span
                                                 _ngcontent-ng-c3846189135=""
                                                 class="copy-target"
-                                                >com.citysuper.eshop.components</span
+                                                >com.citysuper.eshop</span
                                             >
                                         </div>
                                         <!----><!----><!---->
@@ -337,6 +185,12 @@ html = """
                                             data-test-id="blamedFileWrapper"
                                             mattooltipposition="above"
                                             class="mat-mdc-tooltip-trigger metadata-wrapper ng-star-inserted"
+                                            style="
+                                                user-select: none;
+                                                -webkit-user-drag: none;
+                                                touch-action: none;
+                                                -webkit-tap-highlight-color: transparent;
+                                            "
                                             aria-describedby="cdk-describedby-message-ng-1-16"
                                             cdk-describedby-host="ng-1"
                                         >
@@ -353,12 +207,111 @@ html = """
                                             ><span
                                                 _ngcontent-ng-c3846189135=""
                                                 class="copy-target"
-                                                >NormalViewPager2Adapter.kt:35</span
+                                                >SplashActivity.kt:231</span
                                             >
                                         </div>
                                         <!----><!---->
                                     </div>
-                                    <!----><!---->
+                                    <!----><c9s-issue-tags
+                                        _ngcontent-ng-c3846189135=""
+                                        data-test-id="signals"
+                                        _nghost-ng-c3492471496=""
+                                        aria-label="有多个问题信号"
+                                        class="ng-star-inserted"
+                                        ><div
+                                            _ngcontent-ng-c3492471496=""
+                                            class="c9s-issue-tags ng-star-inserted"
+                                        >
+                                            <fire-chip
+                                                _ngcontent-ng-c3492471496=""
+                                                tabindex="0"
+                                                class="signal-chip fire-popover-trigger is-early is-size__dense is-hairline ng-star-inserted"
+                                                _nghost-ng-c115418348=""
+                                                style="
+                                                    --__fire-chip-bg-color: var(
+                                                        --theme-color-bg
+                                                    );
+                                                    --__fire-chip-color: var(
+                                                        --theme-color-fg-secondary
+                                                    );
+                                                "
+                                                aria-describedby="fbc_o"
+                                                aria-owns="fbc_o"
+                                                ><div
+                                                    _ngcontent-ng-c115418348=""
+                                                    data-fire-popup-overlay-trigger=""
+                                                    class="chip-content"
+                                                >
+                                                    <mat-icon
+                                                        _ngcontent-ng-c3492471496=""
+                                                        role="img"
+                                                        class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
+                                                        aria-hidden="true"
+                                                        data-mat-icon-type="font"
+                                                        >bolt</mat-icon
+                                                    >
+                                                    早期 崩溃
+                                                </div>
+                                                <!----></fire-chip
+                                            >
+                                            <div
+                                                class="cdk-visually-hidden"
+                                                aria-hidden="true"
+                                                tabindex="0"
+                                                data-focusinliner="true"
+                                            ></div>
+                                            <!----><fire-cdk-popover
+                                                _ngcontent-ng-c3492471496=""
+                                                _nghost-ng-c3591672751=""
+                                                class="ng-star-inserted"
+                                                ><!----></fire-cdk-popover
+                                            ><!----><fire-chip
+                                                _ngcontent-ng-c3492471496=""
+                                                tabindex="0"
+                                                class="signal-chip fire-popover-trigger is-repetitive is-size__dense is-hairline ng-star-inserted"
+                                                _nghost-ng-c115418348=""
+                                                style="
+                                                    --__fire-chip-bg-color: var(
+                                                        --theme-color-bg
+                                                    );
+                                                    --__fire-chip-color: var(
+                                                        --theme-color-fg-secondary
+                                                    );
+                                                "
+                                                aria-describedby="fbc_p"
+                                                aria-owns="fbc_p"
+                                                ><div
+                                                    _ngcontent-ng-c115418348=""
+                                                    data-fire-popup-overlay-trigger=""
+                                                    class="chip-content"
+                                                >
+                                                    <mat-icon
+                                                        _ngcontent-ng-c3492471496=""
+                                                        role="img"
+                                                        class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
+                                                        aria-hidden="true"
+                                                        data-mat-icon-type="font"
+                                                        >loop</mat-icon
+                                                    >
+                                                    重复 崩溃
+                                                </div>
+                                                <!----></fire-chip
+                                            >
+                                            <div
+                                                class="cdk-visually-hidden"
+                                                aria-hidden="true"
+                                                tabindex="0"
+                                                data-focusinliner="true"
+                                            ></div>
+                                            <!----><fire-cdk-popover
+                                                _ngcontent-ng-c3492471496=""
+                                                _nghost-ng-c3591672751=""
+                                                class="ng-star-inserted"
+                                                ><!----></fire-cdk-popover
+                                            ><!----><!---->
+                                        </div>
+                                        <!----></c9s-issue-tags
+                                    ><!---->
                                 </div></c9s-issue-caption-metadata-row
                             >
                             <div
@@ -369,7 +322,7 @@ html = """
                                 <span
                                     _ngcontent-ng-c129725039=""
                                     class="copy-target"
-                                    >ViewFragment.onViewCreated</span
+                                    >SplashActivity.notifications</span
                                 >
                             </div>
                             <div
@@ -380,9 +333,9 @@ html = """
                                 <span
                                     _ngcontent-ng-c129725039=""
                                     class="copy-target"
-                                    >java.lang.IndexOutOfBoundsException - Empty
-                                    list doesn't contain element at index
-                                    0.</span
+                                    >java.lang.IllegalArgumentException - No
+                                    suitable parent found from the given view.
+                                    Please provide a valid view.</span
                                 >
                             </div>
                             <!----><!---->
@@ -393,9 +346,9 @@ html = """
                         _ngcontent-ng-c1685953515=""
                         class="mobile-stats show-at-mobile"
                     >
-                        <span _ngcontent-ng-c1685953515="">23 次崩溃</span
+                        <span _ngcontent-ng-c1685953515="">190 次崩溃</span
                         >&nbsp;
-                        <span _ngcontent-ng-c1685953515="">19 个用户</span>
+                        <span _ngcontent-ng-c1685953515="">16 个用户</span>
                     </div></a
                 >
             </td>
@@ -415,11 +368,24 @@ html = """
                     ><!----><!----><span
                         _ngcontent-ng-c1685953515=""
                         class="mat-mdc-tooltip-trigger version-range"
-                        aria-describedby="cdk-describedby-message-ng-1-17"
+                        style="
+                            user-select: none;
+                            -webkit-user-drag: none;
+                            touch-action: none;
+                            -webkit-tap-highlight-color: transparent;
+                        "
+                        aria-describedby="cdk-describedby-message-ng-1-35"
                         cdk-describedby-host="ng-1"
                     >
-                        1.6.0 – 1.7.0 </span
-                    ><!----><!----></a
+                        1.8.0 – 1.7.0 </span
+                    ><!---->
+                    <div
+                        _ngcontent-ng-c1685953515=""
+                        class="issue-notes-count ng-star-inserted"
+                    >
+                        1 个备注
+                    </div>
+                    <!----></a
                 >
             </td>
             <td
@@ -432,10 +398,10 @@ html = """
                     _ngcontent-ng-c1685953515=""
                     firefocusmanageritem=""
                     class="fire-router-link-host link-wrapper ng-star-inserted"
-                    href="/u/0/project/citysupereshop-prd/crashlytics/app/android:com.citysuper.eshop/issues/fbec9941a784336ca6b33309e6ef69c7?hl=zh-cn&amp;time=last-ninety-days&amp;versions=1.6.0%20(1116);1.6.0%20(1111);1.6.0%20(1110);1.6.0%20(1109)&amp;types=crash"
+                    href="#"
                     style="cursor: pointer"
                 >
-                    23 </a
+                    190 </a
                 ><!---->
             </td>
             <td
@@ -451,7 +417,7 @@ html = """
                     href="#"
                     style="cursor: pointer"
                 >
-                    19 </a
+                    16 </a
                 ><!---->
             </td>
             <!---->
@@ -469,8 +435,10 @@ rows = table.find_all('tr')
 
 # 遍历每个<tr>标签并提取内容
 for row in rows:
-    cells = row.find_all('td')  # 如果你想提取<td>元素的值
-    for cell in cells:
-        # 提取单元格内容
-        cell_text = cell.get_text(strip=True)
-        print(cell_text)
+    # cells = row.find_all('td')  # 如果你想提取<td>元素的值
+    # specific_div = row.find('div', class_="title-wrapper")
+    div_title_wrapper = row.find('div', {'class': 'title-wrapper'})
+    if div_title_wrapper is not None:
+        title_text = div_title_wrapper.get_text(strip=True)
+        print(title_text)
+
